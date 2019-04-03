@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "shallow": true,
+    "mount": true,
+    "describe": true,
+    "it": true,
+    "expect": true
+  }
+}
